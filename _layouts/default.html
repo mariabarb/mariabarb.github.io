@@ -12,14 +12,14 @@
     <meta property="og:locale" content="en_US" />
     <meta property="og:title" content="{{ site.name }}">
     <meta property="og:description" content="{{ site.description }}">
-    <meta property="og:url" content="{{ site.baseurl }}/index.html" />
+    <meta property="og:url" content="{{ site.github.url }}/index.html" />
     <meta property="og:site_name" content="{{ site.name }}" />
     <meta property="og:type" content="website" />
 
     {% if page.cinema_url %}
-        <meta property="og:image" content="{{ page.cinema_url }}" />
+        <meta property="og:image" content="{{site.github.url}}/{{ page.cinema_url }}" />
     {% else %}
-        <meta property="og:image" content="{{site.baseurl}}/assets/images/cinemas/home_cinema.jpg" />
+        <meta property="og:image" content="{{site.github.url}}/assets/images/cinemas/home_cinema.jpg" />
     {% endif %}
 
     <meta name="theme-color" content="#3b3d3f">
@@ -46,20 +46,20 @@
     <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
             <div class="header">
-                <div class="header-main-title"><a href="{{site.baseurl}}/index">Mαρία Μπαρμπουλέτου</a></div>
+                <div class="header-main-title"><a href="{{site.github.url}}/index">Mαρία Μπαρμπουλέτου</a></div>
                 <div class="header-sub-title">{{site.description}}</div>
                 <div class="hidden-xs">
                     <ul class="header-links">
-                        <li class="{% if page.url == '/' %} active {% endif %}"><a href="{{site.baseurl}}/index">Αρχική</a></li>
-                        <li class="{% if page.url == '/about.html' %} active {% endif %}"><a href="{{site.baseurl}}/about">Προφίλ</a></li>
-                        <li class="{% if page.url == '/contact.html' %} active {% endif %}"><a href="{{site.baseurl}}/contact">Επικοινωνία</a></li>
+                        <li class="{% if page.url == '/' %} active {% endif %}"><a href="{{site.github.url}}/index">Αρχική</a></li>
+                        <li class="{% if page.url == '/about.html' %} active {% endif %}"><a href="{{site.github.url}}/about">Προφίλ</a></li>
+                        <li class="{% if page.url == '/contact.html' %} active {% endif %}"><a href="{{site.github.url}}/contact">Επικοινωνία</a></li>
                     </ul>
                 </div>
                 <div class="visible-xs">
                     <div class="header-links">
-                        <div class="{% if page.url == '/' %} active {% endif %}"><a href="{{site.baseurl}}/index">Αρχική</a></div>
-                        <div class="{% if page.url == '/about.html' %} active {% endif %}"><a href="{{site.baseurl}}/about">Προφίλ</a></div>
-                        <div class="{% if page.url == '/contact.html' %} active {% endif %}"><a href="{{site.baseurl}}/contact">Επικοινωνία</a></div>
+                        <div class="{% if page.url == '/' %} active {% endif %}"><a href="{{site.github.url}}/index">Αρχική</a></div>
+                        <div class="{% if page.url == '/about.html' %} active {% endif %}"><a href="{{site.github.url}}/about">Προφίλ</a></div>
+                        <div class="{% if page.url == '/contact.html' %} active {% endif %}"><a href="{{site.github.url}}/contact">Επικοινωνία</a></div>
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
 {% if page.cinema_url %}
 <div class="cinema" style="background-image: url(&quot;{{page.cinema_url}}&quot;);"></div>
 {% else %}
-<div class="cinema" style="background-image: url(&quot;{{site.baseurl}}/assets/images/cinemas/home_cinema.jpg&quot;);"></div>
+<div class="cinema" style="background-image: url(&quot;{{site.github.url}}/assets/images/cinemas/home_cinema.jpg&quot;);"></div>
 {% endif %}
 
 <div class="container"> 
@@ -79,13 +79,13 @@
             <div class="small-header-column">
                 <div class="author-image-container pull-left">
                     <div class="author-image">
-                        <a href="{{site.baseurl}}/">
-                            <img src="{{site.baseurl}}/assets/images/profile.jpg">
+                        <a href="{{site.github.url}}/">
+                            <img src="{{site.github.url}}/assets/images/profile.jpg">
                         </a>
                     </div>
                 </div>
 
-                <div class="author-name">Μαρία Μπαρμπουλέτου | <a href="{{site.baseurl}}/about.html">Προφίλ</a></div>
+                <div class="author-name">Μαρία Μπαρμπουλέτου | <a href="{{site.github.url}}/about.html">Προφίλ</a></div>
 
                 <div class="footer-row">
                     <div class="social-row text-large">
@@ -106,8 +106,8 @@
             <div class="header-column hidden-xs">
                 <div class="author-image-container">
                     <div class="author-image">
-                        <a href="{{site.baseurl}}/">
-                            <img src="{{site.baseurl}}/assets/images/profile.jpg">
+                        <a href="{{site.github.url}}/">
+                            <img src="{{site.github.url}}/assets/images/profile.jpg">
                         </a>
                     </div>
 
