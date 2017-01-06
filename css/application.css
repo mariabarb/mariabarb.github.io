@@ -188,3 +188,14 @@ img + em {
     font-size: 12px;
     padding-bottom: 10px;
 }
+
+.footer-row {
+    background-color: #494949;
+    color: #ffffff;
+    padding: 20px;
+    height: 60px;
+}
+
+.footer-row a:hover {
+    color: #ffffff;
+}
