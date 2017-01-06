@@ -15,15 +15,15 @@ layout: default
 		<div><strong>Κοινοποίηση</strong></div>
 
 		<div class="post-sharing-buttons">
-			<a href="https://facebook.com/sharer.php?u={{ site.baseurl }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="social-sharing-link">
+			<a href="https://facebook.com/sharer.php?u={{ site.host }}{{ page.url }}" rel="nofollow" target="_blank" title="Share on Facebook" class="social-sharing-link">
 				<i class="fa fa-facebook-square"></i>
 			</a>
 
-			<a href="https://plus.google.com/share?{{ site.baseurl }}{{ page.url }}">
+			<a href="https://plus.google.com/share?{{ site.host }}{{ page.url }}">
 				<i class="fa fa-google-plus-square "></i>
 			</a>
 
-			<a href="https://pinterest.com/pin/create/button/?url={{ page.cinema_url }}&media={{ site.baseurl }}{{ page.url }}&description={{ page.description }}">
+			<a href="https://pinterest.com/pin/create/button/?url={{ site.host }}/{{ page.cinema_url }}&media={{ site.host }}{{ page.url }}&description={{ page.description }}">
 				<i class="fa fa-pinterest-square "></i>
 			</a>
 		</div>
