@@ -9,6 +9,11 @@ a {
     color: #e74c3c;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #494949;
+}
+
 .cinema {
 	height: 410px;
     margin: 0 auto 30px auto;
@@ -187,6 +192,16 @@ img + em {
 .post-date {
     font-size: 12px;
     padding-bottom: 10px;
+}
+
+.post-sharing-buttons {
+    border-top: 1px solid gray;
+    padding: 10px;
+}
+
+.post-sharing-buttons i {
+    font-size: 40px;
+    padding-right: 10px;
 }
 
 .page-footer-row {
