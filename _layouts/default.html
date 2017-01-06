@@ -43,11 +43,18 @@
             <div class="header">
                 <div class="header-main-title"><a href="{{site.baseurl}}/index">Mαρία Μπαρμπουλέτου</a></div>
                 <div class="header-sub-title">{{site.description}}</div>
-                <div>
+                <div class="hidden-xs">
                     <ul class="header-links">
                         <li class="{% if page.url == '/' %} active {% endif %}"><a href="{{site.baseurl}}/index">Αρχική</a></li>
                         <li class="{% if page.url == '/about.html' %} active {% endif %}"><a href="{{site.baseurl}}/about">Προφίλ</a></li>
                         <li class="{% if page.url == '/contact.html' %} active {% endif %}"><a href="{{site.baseurl}}/contact">Επικοινωνία</a></li>
+                    </ul>
+                </div>
+                <div class="visible-xs">
+                    <div class="header-links">
+                        <div class="{% if page.url == '/' %} active {% endif %}"><a href="{{site.baseurl}}/index">Αρχική</a></div>
+                        <div class="{% if page.url == '/about.html' %} active {% endif %}"><a href="{{site.baseurl}}/about">Προφίλ</a></div>
+                        <div class="{% if page.url == '/contact.html' %} active {% endif %}"><a href="{{site.baseurl}}/contact">Επικοινωνία</a></div>
                     </ul>
                 </div>
             </div>
