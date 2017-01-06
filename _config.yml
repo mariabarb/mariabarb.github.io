@@ -1,0 +1,15 @@
+name: Maria Barbouletou
+description: Ζωή σαν παραμύθι
+markdown: kramdown
+owner: Maria Barbouletou
+
+gems:
+  - jekyll-sitemap
+
+social:
+  facebook: https://www.facebook.com/maria.barb2
+
+personal_info:
+  residence: Μελιγού, Αρκαδία
+  email: mariabarb@gmail.com
+  mobile: (+30) 697 418 1052
