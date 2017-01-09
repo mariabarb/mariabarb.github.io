@@ -214,3 +214,7 @@ img + em {
 .page-footer-row a:hover {
     color: #ffffff;
 }
+
+h1, h2, h3 {
+    color: #e74c3c;
+}
