@@ -11,12 +11,26 @@
     <meta name="author" content="{{site.author}}"/>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale" content="el_GR" />
     <meta property="og:title" content="{{ site.name }}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:url" content="{{ site.github.url }}/index.html" />
     <meta property="og:site_name" content="{{ site.name }}" />
     <meta property="og:type" content="website" />
+
+    <script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"https:\/\/mariabarb.github.io\/","name":"Μαρία Μπαρμπουλέτου - Ζωή σαν παραμύθι"}</script>
+
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "Person",
+          "email": "mailto:mariabarbouletou@gmail.com",
+          "jobTitle": "Παιδαγωγός - Αφηγήτρια",
+          "name": "Mαρία Μπαρμπουλέτου",
+          "telephone": "(+30) 697 418 1052",
+          "url": "https://mariabarb.github.io"
+        }
+    </script>
 
     {% if page.cinema_url %}
         <meta property="og:image" content="{{ page.cinema_url }}" />
