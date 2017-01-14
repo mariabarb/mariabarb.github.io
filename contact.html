@@ -9,8 +9,23 @@ title: Στοιχεία επικοινωνίας
 			<h2>Στοιχεία επικοινωνίας</h2>
 		</div>
 
-		<div><strong>Email</strong>: <a href="mailto:{{ site.personal_info.email }}">{{site.personal_info.email}}</a></div>
-		<div><strong>Τηλέφωνο</strong>: {{site.personal_info.mobile}}</div>
+		<div>
+			<strong>Email</strong>: 
+			<i class="fa fa-envelope" aria-hidden="true"></i> 
+			<a href="mailto:{{ site.personal_info.email }}">{{site.personal_info.email}}</a>
+		</div>
+
+		<div>
+			<strong>Τηλέφωνο</strong>: 
+			<i class="fa fa-phone" aria-hidden="true"></i> 
+			<a href="tel:{{site.personal_info.mobile}}">{{site.personal_info.mobile}}</a>
+		</div>
+
+		<div>
+			<strong>Περιοχή</strong>: 
+			<i class="fa fa-map-marker" aria-hidden="true"></i> 
+			{{site.personal_info.position}}
+		</div>
 	</div>
 </div>
 
