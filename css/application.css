@@ -208,7 +208,8 @@ img + em {
     background-color: #494949;
     color: #ffffff;
     padding: 20px;
-    height: 60px;
+    height: 80px;
+    font-size: 14px;
 }
 
 .page-footer-row a:hover {
