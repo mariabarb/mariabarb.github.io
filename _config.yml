@@ -13,3 +13,11 @@ personal_info:
   email: mariabarbouletou@gmail.com
   mobile: (+30) 697 418 1052
   position: Μελιγού, Αρκαδία, Ελλάδα
+
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
