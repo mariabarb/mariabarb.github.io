@@ -5,6 +5,7 @@ owner: Maria Barbouletou
 
 gems:
   - jekyll-sitemap
+  - jekyll-feed
 
 social:
   facebook: https://www.facebook.com/maria.barb2
