@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Η μπουγάδα του Αη Βασίλη
 description: Θεατρική παράσταση με τα παιδιά από το Εργαστήριο παραμυθιού με τίτλο "Η μπουγάδα του Αη Βασίλη"
 cinema_url: https://i.imgur.com/iB44sTO.jpg

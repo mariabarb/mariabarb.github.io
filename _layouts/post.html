@@ -29,3 +29,13 @@ layout: default
 		</div>
 	</div>
 </div>	
+
+<br>
+
+{% if page.comments %}
+    <div class="row">
+        <div class="col-xs-12">
+            {% include disqus.html %}
+        </div>
+    </div>
+{% endif %}

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Εργαστήρι παραμυθιού - Οι Άθλοι του Ηρακλή
 description: Εργαστήρι παραμυθιού - Οι Άθλοι του Ηρακλή - Οδηγός για να φτιάξετε και εσείς μάσκες λιονταριού
 cinema_url: https://i.imgur.com/Mqq7QXI.jpg

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Εργαστήρι παραμυθιού - Θεατρική παράσταση (Μέρος 2ο) - Λυσιστράτη
 description: Εργαστήρι παραμυθιού - 2ο μέρος από της Θεατρική μας παράσταση με το θεατρικό "Λυσιστράτη"
 cinema_url: https://i.imgur.com/bhtUJwg.jpg

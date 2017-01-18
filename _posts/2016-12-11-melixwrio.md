@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Μελιχωριό
 description: Το "Μελιχωριό" ανοίγει τις πύλες του
 cinema_url: https://i.imgur.com/S6bwHq8.jpg

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Έναρξη της νέας χρονιάς για το Εργαστήρι παραμυθιού
 description: Έναρξη της νέας χρονιάς για το Εργαστήρι παραμυθιού
 cinema_url: https://i.imgur.com/5kMxC0b.jpg

@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Ανάγνωση Χριστουγεννιάτικων παραμυθιών σε παιδιά του Άστρους
 description: Ανάγνωση Χριστουγεννιάτικων παραμυθιών σε παιδιά του Άστρους στο Bar Καταφύγιο
 cinema_url: https://i.imgur.com/uxfqD1C.jpg
