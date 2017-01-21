@@ -16,7 +16,9 @@ title: Ζωή σαν παραμύθι
 
       <div class="post-date">
         <span class="glyphicon glyphicon-time" aria-hidden="true"></span>
-        <span>{{ post.date | date: '%d/%m/%Y' }}</span>
+        <span>{{ post.date | date: '%d/%m/%Y' }}</span> | 
+
+        <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{post.url}}"></a>
       </div>
 
       <div class="post-body">{{ post.excerpt }}</div>
