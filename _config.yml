@@ -9,7 +9,7 @@ gems:
   - jekyll/tagging
 
 tag_page_layout: tag
-tag_page_dir: tags
+tag_page_dir: blog/tag
 
 social:
   facebook: https://www.facebook.com/maria.barb2
