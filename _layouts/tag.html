@@ -10,7 +10,7 @@ layout: default
 	</div>	
 </div>
 
-{% for post in page.posts %}
+{% for post in site.tags[page.tag] %}
   <div class="row">
     <div class="col-xs-12">
       <div class="post-header">
