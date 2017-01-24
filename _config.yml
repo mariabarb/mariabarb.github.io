@@ -6,9 +6,7 @@ owner: Maria Barbouletou
 gems:
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll/tagging
 
-tag_page_layout: tag
 tag_page_dir: blog/tag
 
 social:
