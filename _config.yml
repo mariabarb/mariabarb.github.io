@@ -2,8 +2,9 @@ name: Maria Barbouletou
 description: Ζωή σαν παραμύθι
 markdown: kramdown
 owner: Maria Barbouletou
+url: https://mariabarb.github.io
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
 
